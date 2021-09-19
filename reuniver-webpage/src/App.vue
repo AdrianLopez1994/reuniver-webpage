@@ -5,17 +5,17 @@
         Aquí irá el menú superior
       </p>
     </div>
-    <SectionTemplate sectionType=""/>
+    <WhoSection sectionType=""/>
   </div>
 </template>
 
 <script>
-import SectionTemplate from './components/SectionTemplate.vue'
+import WhoSection from './components/WhoSection.vue'
 
 export default {
   name: 'App',
   components: {
-    SectionTemplate
+    WhoSection
   }
 }
 </script>

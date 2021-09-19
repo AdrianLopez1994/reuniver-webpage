@@ -1,14 +1,14 @@
 <template>
   <div class="main-section-div">
-    <h2> Título de la sección </h2>
-    <div>Lorem ipsum dolor</div>
+    <h2> {{ $t('titles.who') }} </h2>
+    <div class=""></div>
     <hr style="width:80%">
   </div>
 </template>
 
 <script>
 export default {
-  name: 'SectionTemplate',
+  name: 'WhoSection',
   props: {
     sectionType: String
   }
